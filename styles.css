@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+
+.btn-signup {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+    width: fit-content;
+}
+
+.social-icons i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
